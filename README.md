@@ -1,10 +1,35 @@
-# PetStoreApp
-This is a project based on the automation testing of a Pet demo App, the goal is to create testcases to test 3 endpoints.
+<!-- PROJECT LOGO -->
+<div align="center">
+  <h1 align="center">PetStore App</h1>
+  <p align="center">API Testing Project</p>
+</div>
 
-Implementations:
+<!-- TABLE OF CONTENTS -->
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#useful documentation">Useful Documentation</a></li>
+  </ol>
 
-Java with TestNG Gradle WireMock Docker
 
+### About The Project
+
+The project focuses on testing the Simple Grocery API, using core testing tools such as Java, and OkHttp. The goal of the project is to improve testing skills and gain experience in web testing.
+
+### Built With
+
+* Programming Language: Java
+* Frameworks: TestNG, OkHttp
+* Build tool: Gradle
+* Mocking tool: WireMock Docker
+
+### Usage
 Steps to run it:
 
 1. To run the test please find the download wiremock .jar here: https://wiremock.org/docs/download-and-installation/
@@ -14,7 +39,8 @@ make sure you run the command in the directory where the .jar file is)
 
 3. Then run:  ./gradlew test in your IDE (I used IntelliJ) terminal
 
-
+### Useful Documentation
+* [TestNG](https://testng.org/doc/documentation-main.html)
 
 
 
